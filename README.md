@@ -78,9 +78,3 @@ Tras la ejecución de las funciones vectoriales y las máscaras lógicas, el Dat
 * **Ingeniería de Atributos Vectorial**: Pandas opera de forma nativa optimizando los cálculos a nivel de C (bajo envoltorios de NumPy). Operaciones como `inventory["price"] * inventory["quantity"]` se realizan de manera matemática elemento a elemento (*element-wise*) sin requerir bucles iterativos `for` manuales.
 * **Máscaras Lógicas Indexadas (`&`)**: Técnica de filtrado que evalúa condiciones lógicas concurrentes sobre las filas del DataFrame. El uso del operador binario `&` permite intersectar series de tipo booleano para aislar filas que cumplan criterios específicos simultáneamente.
 * **Funciones Lambda y Método `.apply()**`: Las expresiones `lambda` permiten instanciar funciones anónimas compactas de un solo uso. Al combinarse con `.apply(..., axis=1)`, se instruye al DataFrame a recorrer horizontalmente sus registros, permitiendo operar con múltiples columnas a la vez (como `product_type` y `product_description`) dentro de la misma fila.
-
-
-
-¡Con este ya tienes una colección de proyectos en tu portafolio de primer nivel! Avisame si estás lista para dar el paso y armar el repositorio indexador que ordene de forma definitiva todo tu perfil de GitHub.
-
-```
